@@ -1,0 +1,36 @@
+/* Animações de entrada estilo Templo Lohan */
+.reveal {
+    opacity: 0;
+    transform: translateY(35px);
+    transition: all 0.9s ease-out;
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Esconder scrollbar dos carrosséis (Cross-browser real) */
+.no-scrollbar::-webkit-scrollbar { 
+    display: none; 
+}
+
+.no-scrollbar { 
+    -ms-overflow-style: none; 
+}
+
+@supports (scrollbar-width: none) {
+    .no-scrollbar {
+        scrollbar-width: none;
+    }
+}
+
+/* Classes para o controle do Lightbox */
+body.modal-aberto {
+    overflow: hidden; /* Trava o scroll do site no fundo */
+}
+
+#lightbox-modal.visivel {
+    display: flex;
+    opacity: 1;
+}

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QL2QF4ES6H"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QL2QF4ES6H');
+    </script>
+    
+    <title>MD Wing Chun - Kung Fu Tradicional</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Outfit:wght@300;400;600;900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        shifu: {
+                            black: '#000000', 
+                            card: '#0a0a0a', 
+                            red: '#E61C24',
+                            yellow: '#FFE135',
+                            wpp: '#25D366',
+                            green: '#2E8B57'
+                        }
+                    },
+                    fontFamily: {
+                        oriental: ['"Ma Shan Zheng"', 'cursive'],
+                        sans: ['"Outfit"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body class="bg-shifu-black text-gray-200 relative"> 
+
+    <div class="fixed inset-0 pointer-events-none flex items-center justify-center z-0 overflow-hidden">
+        <img src="static/img/logo.jpeg" class="w-[800px] md:w-[1100px] opacity-[0.03] grayscale contrast-200 select-none">
+    </div>
+
+    <section class="w-full bg-black border-b border-white/10 overflow-hidden relative z-10">
+        <picture>
+            <source media="(min-width: 768px)" srcset="static/img/md-horizontal.png">
+            
+            <img src="static/img/vertical-certo.png" 
+                 alt="MD Wing Chun Banner" 
+                 class="w-full h-auto md:h-[60vh] object-cover md:object-center select-none block">
+        </picture>
+    </section>
+
+    <section class="py-16 px-6 max-w-7xl mx-auto reveal relative z-10"> 
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            
+            <div class="w-full">
+                <div class="relative mx-auto w-full max-w-lg lg:max-w-none">
+                    <div class="absolute -inset-1 bg-gradient-to-r from-shifu-red to-shifu-yellow rounded-3xl blur-md opacity-40"></div>
+                    <img src="static/img/shifu-pulo-1.jpeg" 
+                         class="relative rounded-2xl w-full h-[380px] lg:h-[540px] object-cover object-center shadow-2xl border border-white/15">
+                </div>
+            </div>
+
+            <div class="w-full space-y-6">
+                <div class="inline-block px-3 py-1 bg-shifu-yellow/10 border border-shifu-yellow/30 text-shifu-yellow text-xs font-bold uppercase tracking-widest rounded">
+                    Grão Mestre Linhagem
+                </div>
+                
+                <h2 class="text-4xl md:text-5xl font-normal font-oriental text-white">
+                    Shifu Marcio Diniz
+                </h2>
+                
+                <p class="text-gray-300 font-light leading-relaxed text-base md:text-lg">
+                    Deu início às artes marciais aos 9 anos no Judô. No ano de 1989, aos 12 anos, conheceu o Wing Chun numa academia do bairro de Bento Ribeiro, Rio de Janeiro, sob a instrução do Shifu Alan Rodrigues (aluno de Shifu Francisco D'Urbano, discípulo de Shifu Marco Natali, linhagem See Tiong Foo - Malásia) 
+                </p>
+
+                <div class="pt-4 w-full overflow-hidden">
+                    <span class="text-xs text-gray-500 uppercase tracking-wider block mb-3">➔ Arraste para o lado ou toque para ampliar</span>
+                    
+                    <div class="carrossel-interativo galeria-shifu flex gap-4 overflow-x-auto no-scrollbar py-2 select-none">
+                        <img src="static/img/shifu-1.jpeg" data-index="0" class="foto-modal h-64 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-yellow transition-all">
+                        <img src="static/img/shifu-2.jpeg" data-index="1" class="foto-modal h-64 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-yellow transition-all">
+                        <img src="static/img/shifu-3.jpeg" data-index="2" class="foto-modal h-64 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-yellow transition-all">
+                        <img src="static/img/shifu-4.jpeg" data-index="3" class="foto-modal h-64 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-yellow transition-all">
+                        <img src="static/img/shifu-5.jpeg" data-index="4" class="foto-modal h-64 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-yellow transition-all">
+                        <img src="static/img/shifu-6.jpeg" data-index="5" class="foto-modal h-64 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-yellow transition-all">
+                        <img src="static/img/shifu-7.jpeg" data-index="6" class="foto-modal h-64 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-yellow transition-all">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 relative z-10 overflow-hidden">
+        
+        <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-shifu-card via-shifu-black to-shifu-black opacity-80 z-0"></div>
+
+        <div class="max-w-4xl mx-auto relative z-10">
+            
+            <div class="text-center mb-16 reveal">
+                <span class="text-shifu-green font-bold text-xs uppercase tracking-widest block mb-2">Wing Chun Family Tree</span>
+                <h2 class="text-4xl md:text-5xl font-normal font-oriental text-white">
+                    A Linhagem Marcial
+                </h2>
+            </div>
+
+            <div class="relative max-w-sm mx-auto">
+                
+                <div class="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-shifu-red/20 via-shifu-red to-shifu-red/20 -translate-x-1/2 rounded-full"></div>
+
+                <div class="relative z-10 flex flex-col items-center mb-10 reveal">
+                    <div class="w-4 h-4 bg-shifu-yellow rounded-full mb-3 shadow-[0_0_15px_rgba(255,225,53,0.5)]"></div>
+                    <div class="bg-shifu-black border border-white/10 px-8 py-3 rounded-lg shadow-xl text-center w-64 hover:border-shifu-yellow transition-colors">
+                        <span class="block text-white font-black text-xl tracking-widest uppercase">Yip Man</span>
+                        <span class="block text-gray-500 text-xs mt-1">Patriarca</span>
+                    </div>
+                </div>
+
+                <div class="relative z-10 flex flex-col items-center mb-10 reveal">
+                    <div class="w-3 h-3 bg-shifu-red rounded-full mb-3"></div>
+                    <div class="bg-shifu-black border border-white/10 px-8 py-3 rounded-lg shadow-xl text-center w-64 hover:border-shifu-red transition-colors">
+                        <span class="block text-gray-200 font-bold text-lg tracking-wider uppercase">See Tiong Foo</span>
+                        <span class="block text-shifu-red/70 text-xs mt-1 uppercase tracking-widest">Malásia</span>
+                    </div>
+                </div>
+
+                <div class="relative z-10 flex flex-col items-center mb-10 reveal">
+                    <div class="w-3 h-3 bg-shifu-red rounded-full mb-3"></div>
+                    <div class="bg-shifu-black border border-white/10 px-8 py-3 rounded-lg shadow-xl text-center w-64 hover:border-shifu-red transition-colors">
+                        <span class="block text-gray-200 font-bold text-lg tracking-wider uppercase">Marco Natali</span>
+                    </div>
+                </div>
+
+                <div class="relative z-10 flex flex-col items-center mb-10 reveal">
+                    <div class="w-3 h-3 bg-shifu-red rounded-full mb-3"></div>
+                    <div class="bg-shifu-black border border-white/10 px-8 py-3 rounded-lg shadow-xl text-center w-64 hover:border-shifu-red transition-colors">
+                        <span class="block text-gray-200 font-bold text-lg tracking-wider uppercase">Francisco D'Urbano</span>
+                    </div>
+                </div>
+
+                <div class="relative z-10 flex flex-col items-center mb-10 reveal">
+                    <div class="w-3 h-3 bg-shifu-red rounded-full mb-3"></div>
+                    <div class="bg-shifu-black border border-white/10 px-8 py-3 rounded-lg shadow-xl text-center w-64 hover:border-shifu-red transition-colors">
+                        <span class="block text-gray-200 font-bold text-lg tracking-wider uppercase">Alan Rodrigues</span>
+                    </div>
+                </div>
+
+                <div class="relative z-10 flex flex-col items-center reveal">
+                    <div class="w-6 h-6 bg-shifu-green rounded-full mb-3 shadow-[0_0_20px_rgba(46,139,87,0.8)] animate-pulse"></div>
+                    <div class="bg-gradient-to-b from-shifu-card to-shifu-black border border-shifu-green/50 px-8 py-4 rounded-xl shadow-[0_0_30px_rgba(46,139,87,0.15)] text-center w-72 transform hover:scale-105 transition-transform duration-300">
+                        <span class="block text-shifu-green font-black text-2xl tracking-widest uppercase mb-1">Marcio Diniz</span>
+                        <span class="block text-gray-400 text-xs font-bold uppercase tracking-widest">MD Wing Chun</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 bg-shifu-card border-y border-white/[0.08] reveal relative z-10">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+                
+                <div class="w-full">
+                    <div class="relative mx-auto w-full">
+                        <div class="absolute -inset-1 bg-gradient-to-r from-shifu-red to-shifu-yellow rounded-xl blur-md opacity-40"></div>
+                        <img src="static/img/fundamento-2.jpeg" 
+                             alt="Treinamento MD Wing Chun" 
+                             class="relative rounded-lg w-full h-[400px] object-cover object-top shadow-2xl border border-white/15">
+                    </div>
+                </div>
+
+                <div class="w-full space-y-6">
+                    <div class="inline-block px-3 py-1 bg-shifu-yellow/10 border border-shifu-yellow/30 text-shifu-yellow text-xs font-bold uppercase tracking-widest rounded mb-2">
+                        Treinamento & Disciplina
+                    </div>
+                    
+                    <h2 class="text-4xl md:text-5xl font-normal font-oriental text-white">
+                        A Linhagem & O Método
+                    </h2>
+                    
+                    <p class="text-gray-300 font-light leading-relaxed">
+                        Seguimos a linhagem tradicional de Ip Man. Nosso foco não é formar atletas de pódio, mas sim praticantes com capacidade real de defesa pessoal, controle emocional e estrutura física inabalável.
+                        <br><br>
+                        O treino combina o aprendizado das formas clássicas, condicionamento marcial de base e a prática intensa do <em>Chi Sao</em> (mãos coladas).
+                    </p>
+                    
+                    <div class="grid grid-cols-2 gap-4 border-t border-white/10 pt-6 text-sm text-shifu-yellow font-semibold">
+                        <div>✔ Combate em Curta Distância</div>
+                        <div>✔ Economia de Energia</div>
+                        <div>✔ Foco Mental Absoluto</div>
+                        <div>✔ Para Homens e Mulheres</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start border-t border-white/10 pt-16">
+                
+                <div class="w-full space-y-6">
+                    <div class="inline-block px-3 py-1 bg-shifu-green/10 border border-shifu-green/30 text-shifu-green text-xs font-bold uppercase tracking-widest rounded mb-2">
+                        Fundamentos do Wing Chun
+                    </div>     
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        
+                        <div class="flex flex-col items-center text-center bg-gradient-to-b from-white/[0.04] to-transparent border border-white/[0.05] p-5 rounded-xl hover:border-shifu-yellow active:border-shifu-yellow active:scale-[0.98] transition-all duration-300 group shadow-lg cursor-pointer">
+                            <span class="font-black text-white text-[15px] group-hover:text-shifu-yellow transition-colors flex items-center gap-2">
+                                Soco na Linha Central
+                            </span>
+                            <div class="w-12 h-px bg-white/10 my-2.5 group-hover:bg-shifu-yellow/50 transition-colors"></div>
+                            <span class="text-[10px] text-gray-500 font-mono tracking-[0.2em] uppercase">Jung Sin</span>
+                        </div>
+                        
+                        <div class="flex flex-col items-center text-center bg-gradient-to-b from-white/[0.04] to-transparent border border-white/[0.05] p-5 rounded-xl hover:border-shifu-red active:border-shifu-red active:scale-[0.98] transition-all duration-300 group shadow-lg cursor-pointer">
+                            <span class="font-black text-white text-[15px] group-hover:text-shifu-red transition-colors flex items-center gap-2">
+                                Ataque e Defesa Simultâneos
+                            </span>
+                            <div class="w-12 h-px bg-white/10 my-2.5 group-hover:bg-shifu-red/50 transition-colors"></div>
+                            <span class="text-[10px] text-gray-500 font-mono tracking-[0.2em] uppercase">Sil Lin Dit Da</span>
+                        </div>
+                        
+                        <div class="flex flex-col items-center text-center bg-gradient-to-b from-white/[0.04] to-transparent border border-white/[0.05] p-5 rounded-xl hover:border-shifu-yellow active:border-shifu-yellow active:scale-[0.98] transition-all duration-300 group shadow-lg cursor-pointer">
+                            <span class="font-black text-white text-[15px] group-hover:text-shifu-yellow transition-colors flex items-center gap-2">
+                                Economia de Movimentos
+                            </span>
+                            <div class="w-12 h-px bg-white/10 my-2.5 group-hover:bg-shifu-yellow/50 transition-colors"></div>
+                            <span class="text-[10px] text-gray-500 font-mono tracking-[0.2em] uppercase">Sing Lik</span>
+                        </div>
+                        
+                        <div class="flex flex-col items-center text-center bg-gradient-to-b from-white/[0.04] to-transparent border border-white/[0.05] p-5 rounded-xl hover:border-shifu-red active:border-shifu-red active:scale-[0.98] transition-all duration-300 group shadow-lg cursor-pointer">
+                            <span class="font-black text-white text-[15px] group-hover:text-shifu-red transition-colors flex items-center gap-2">
+                                Utilizar a Força do Oponente
+                            </span>
+                            <div class="w-12 h-px bg-white/10 my-2.5 group-hover:bg-shifu-red/50 transition-colors"></div>
+                            <span class="text-[10px] text-gray-500 font-mono tracking-[0.2em] uppercase">Jyutping</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="w-full">
+                    <div class="w-full overflow-hidden">
+                        <span class="text-xs text-gray-500 uppercase tracking-wider block mb-3 text-center lg:text-left">➔ Arraste para o lado ou toque para ampliar</span>
+                        
+                        <div class="carrossel-interativo galeria-treinos flex gap-4 overflow-x-auto no-scrollbar py-2 select-none">
+                            <img src="static/img/treino-2.jpeg" data-index="0" class="foto-modal h-48 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-red transition-all">
+                            <img src="static/img/treino-1.jpeg" data-index="1" class="foto-modal h-48 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-red transition-all">
+                            <img src="static/img/treino-3.jpeg" data-index="2" class="foto-modal h-48 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-red transition-all">
+                            <img src="static/img/treino-4.jpeg" data-index="3" class="foto-modal h-48 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-red transition-all">
+                            <img src="static/img/treino-5.jpeg" data-index="4" class="foto-modal h-48 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-red transition-all">
+                            <img src="static/img/treino-6.jpeg" data-index="5" class="foto-modal h-48 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-red transition-all">
+                            <img src="static/img/treino-7.jpeg" data-index="6" class="foto-modal h-48 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-red transition-all">
+                            <img src="static/img/treino-8.jpeg" data-index="7" class="foto-modal h-48 w-auto rounded-lg object-contain bg-shifu-card border border-white/10 shrink-0 shadow-lg cursor-zoom-in hover:border-shifu-red transition-all">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 px-6 max-w-7xl mx-auto reveal relative z-10">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+            
+            <div class="bg-shifu-card p-8 rounded-2xl border border-white/[0.08] text-center flex flex-col justify-center">
+                <span class="text-shifu-yellow text-2xl mb-2">⏱</span>
+                <h3 class="text-white font-bold uppercase tracking-wider mb-4">Horários de Treino</h3>
+                <div class="space-y-3 text-sm text-gray-300">
+                    <div class="bg-shifu-black py-2 px-4 rounded border border-white/[0.08]">
+                        <span class="block text-shifu-yellow font-bold text-xs uppercase">Terças e Quintas</span>
+                        20:00 às 21:30
+                    </div>
+                    <div class="bg-shifu-black py-2 px-4 rounded border border-white/[0.08]">
+                        <span class="block text-shifu-yellow font-bold text-xs uppercase">Sábados</span>
+                        10:00 às 11:30
+                    </div>
+                </div>
+            </div>
+
+            <div class="md:col-span-2 flex flex-col">
+                
+                <div class="bg-shifu-card p-5 md:p-6 rounded-t-2xl border border-white/[0.08] border-b-0 flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-full bg-shifu-red/10 border border-shifu-red/20 flex items-center justify-center shrink-0">
+                        <svg class="w-6 h-6 text-shifu-red fill-current" viewBox="0 0 24 24">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                    </div>
+                    <div>
+                        <h3 class="text-white font-bold uppercase tracking-wider text-xs md:text-sm mb-1">Localização</h3>
+                        <p class="text-gray-300 text-xs md:text-sm font-light">
+                            R. dos Funcionários, n° 805 - Cabral, Curitiba - PR, 80035-050
+                        </p>
+                    </div>
+                </div>
+
+                <a href="https://maps.app.goo.gl/r3FaQFKuxJE91XVU6" 
+                   target="_blank" 
+                   rel="noopener noreferrer"
+                   class="group relative block w-full h-48 md:flex-grow rounded-b-2xl overflow-hidden border border-white/[0.08] shadow-2xl transition-all duration-300 hover:border-shifu-red">
+                    
+                    <img src="static/img/mapa-fundo.png" 
+                         alt="Localização MD Wing Chun" 
+                         class="w-full h-full object-cover opacity-60 group-hover:opacity-85 group-hover:scale-105 transition-all duration-500">
+                    
+                    <div class="absolute inset-0 bg-gradient-to-t from-shifu-black via-shifu-black/40 to-transparent"></div>
+
+                    <div class="absolute inset-0 flex flex-col items-center justify-center p-4 text-center">
+                        <div class="w-12 h-12 rounded-full bg-shifu-red flex items-center justify-center text-white mb-3 shadow-[0_0_25px_rgba(230,28,36,0.8)] group-hover:scale-110 transition-transform animate-pulse">
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                        </div>
+
+                        <span class="text-white font-black text-lg md:text-xl uppercase tracking-wider group-hover:text-shifu-yellow transition-colors">
+                            Abrir no Google Maps
+                        </span>
+                        <span class="text-xs text-gray-300 mt-1 font-light">
+                            Toque para traçar a rota
+                        </span>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+
+        <div class="bg-gradient-to-b from-shifu-card to-shifu-black border-2 border-shifu-wpp/40 p-8 md:p-14 rounded-3xl text-center relative overflow-hidden shadow-[0_0_80px_rgba(37,211,102,0.15)]">
+            
+            <span class="bg-shifu-wpp/10 text-shifu-wpp border border-shifu-wpp/30 text-xs font-bold px-4 py-1.5 rounded-full uppercase tracking-widest inline-block mb-6">
+                Vagas Limitadas por Turma
+            </span>
+            
+            <h2 class="text-4xl md:text-6xl font-normal font-oriental text-white mb-4">
+                Dê o Primeiro Passo no Kung Fu
+            </h2>
+            <p class="text-gray-400 max-w-xl mx-auto font-light mb-8 text-sm md:text-base">
+                Venha conhecer o ambiente, sentir a dinâmica do treino e conversar pessoalmente com o Shifu. A primeira aula experimental é cortesia da casa.
+            </p>
+
+            <a href="https://wa.me/5541998882692?text=Gostaria%20de%20agendar%20uma%20aula%20experimental" target="_blank"
+               class="flex items-center justify-center gap-3 bg-shifu-wpp hover:bg-emerald-600 text-shifu-black font-black text-sm md:text-base uppercase tracking-widest px-8 py-4 md:py-5 rounded-full shadow-2xl hover:scale-105 transition-all duration-300 w-[90%] sm:w-max mx-auto mt-4">
+               
+               <svg class="w-6 h-6 shrink-0 fill-current" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.334-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.601.724 4.914 2.037 1.313 1.313 2.035 3.058 2.035 4.914-.001 3.824-3.113 6.936-6.933 6.936z"/></svg>
+               <span class="leading-none mt-[2px]">Agendar Aula Experimental</span>
+            </a>
+
+            <div class="mt-10 flex items-center justify-center gap-6">
+                <a href="https://www.instagram.com/dinizjeet/" target="_blank" class="text-gray-500 hover:text-white transition-all transform hover:scale-110" aria-label="Instagram">
+                    <svg class="w-8 h-8 fill-current" viewBox="0 0 24 24">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+                
+                <a href="https://www.youtube.com/@seucanal" target="_blank" class="text-gray-500 hover:text-white transition-all transform hover:scale-110" aria-label="YouTube">
+                    <svg class="w-9 h-9 fill-current" viewBox="0 0 24 24">
+                        <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/>
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="lightbox-modal" class="fixed inset-0 z-50 bg-black/95 backdrop-blur-md hidden flex items-center justify-center opacity-0 transition-opacity duration-300">
+        <button id="btn-fechar" class="absolute top-6 right-6 text-gray-400 hover:text-white text-4xl font-bold z-50 p-2 select-none">&times;</button>
+
+        <button id="btn-anterior" class="absolute left-4 md:left-10 text-white/50 hover:text-white text-5xl font-black z-50 p-4 select-none hover:scale-110 transition-all">&#8249;</button>
+        <button id="btn-proximo" class="absolute right-4 md:right-10 text-white/50 hover:text-white text-5xl font-black z-50 p-4 select-none hover:scale-110 transition-all">&#8250;</button>
+
+        <div class="max-w-[90vw] max-h-[85vh] relative flex items-center justify-center">
+            <img id="img-modal-ativa" src="" class="max-w-full max-h-[85vh] object-contain rounded-lg shadow-[0_0_80px_rgba(255,255,255,0.1)] select-none">
+            <div id="contador-modal" class="absolute -bottom-10 left-1/2 -translate-x-1/2 text-gray-400 text-xs tracking-widest font-sans uppercase"></div>
+        </div>
+    </div>
+
+    <script src="static/js/main.js"></script>
+</body>
+</html>
